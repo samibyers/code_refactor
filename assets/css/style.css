@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/*sets the background color for the entire website*/
 body {
     background-color: #d9dcd6;
 }
 
+/*styles the box containing the header elements*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,39 +17,40 @@ body {
     color: #ffffff;
 }
 
+/*styles the header word Horiseon*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
-
+/*styles the navigation elements*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header nav ul {
     list-style-type: none;
 }
 
+/*stlyles the navigation elements. could not combine with .header nav and still look the same*/
 .header nav ul li {
-    display: inline-block;
+    display:inline-block;
     margin-left: 25px;
 }
 
+/*styles the navigation links. could not successfully combine with above nav elements*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*styles the paragraph content for the rest of the website*/
 p {
     font-size: 16px;
 }
 
+/*styles the main large image under the header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -57,16 +60,19 @@ p {
     background-position: center;
 }
 
+/*styles the section images that sit on the left side*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*styles the section image that sits on the right side*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*styles all the text content within the sections*/
 .content {
     width: 75%;
     display: inline-block;
